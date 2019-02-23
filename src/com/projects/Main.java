@@ -8,9 +8,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        File imgFile1 = new File("C:\\Users/mark/Pictures\\Waterfall\\Waterfall.jpg");
-        File imgFile2 = new File("C:\\Users/mark/Pictures\\Waterfall\\Waterfall2.jpg");
-        GreyScale.gryScale(imgFile1);
+        File imgFile1 = new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\waterfall.jpg");
+        File imgFile2 = new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\waterfall2.jpg");
+        //GreyScale.gryScale(imgFile1);
 
         matrixValues mat = new matrixValues(imgFile1);
         mat.printAlphaMatrix();
