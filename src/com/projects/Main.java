@@ -8,13 +8,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        File imgFile1 = new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\waterfall.jpg");
+        File imgFile1 = new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\Punishersymbol1.jpg");
         File imgFile2 = new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\waterfall2.jpg");
         //GreyScale.gryScale(imgFile1);
 
         matrixValues mat = new matrixValues(imgFile1);
        // mat.printAlphaMatrix();
-            mat.printRedMatrix();
+            mat.printDotMatrix();
 
 //        HideImage val = new HideImage(imgFile1, imgFile2);
 //        val.EncryptImage();

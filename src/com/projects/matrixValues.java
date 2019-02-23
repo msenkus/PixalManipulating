@@ -34,7 +34,8 @@ public class matrixValues {
                     System.out.print(x.getRed() + ",");
             }
         }
-    }    public void printAlphaMatrix(){
+    }
+    public void printAlphaMatrix(){
         BufferedImage img = this.baseImg;
         for(int i = 0; i < img.getWidth(); i++) {
             System.out.print("\n");
@@ -42,6 +43,26 @@ public class matrixValues {
                 Color x = new Color(img.getRGB(i, j));
                     System.out.print(x.getAlpha());
             }
+        }
+    }
+    public void printDotMatrix(){
+        BufferedImage img = this.baseImg;
+        try{
+        for(int i = 0; i < img.getWidth(); i++) {
+            System.out.print("\n");
+            for(int j = 0; j < img.getHeight(); j++) {
+//                if(j == 0) System.out.print("\n");
+                Color x = new Color(img.getRGB(i, j));
+
+//                int red = x.getRed();
+                if(x.getRed() >= 150){
+                    System.out.print("o");
+                }else{
+                    System.out.print("x");
+                }
+            }
+        }
+        }catch (Exception e){
         }
     }
 }
