@@ -10,7 +10,7 @@ public class Main {
 
         File imgFile1 = new File("C:\\Users/mark/Pictures\\Waterfall\\Waterfall.jpg");
         File imgFile2 = new File("C:\\Users/mark/Pictures\\Waterfall\\Waterfall2.jpg");
-//        GreyScale.gryScale(imgFile);
+        GreyScale.gryScale(imgFile1);
 
         matrixValues mat = new matrixValues(imgFile1);
         mat.printAlphaMatrix();
