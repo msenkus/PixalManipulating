@@ -31,7 +31,7 @@ public class matrixValues {
             for(int j = 0; j < img.getHeight(); j++) {
                 Color x = new Color(img.getRGB(i, j));
 //                int red = x.getRed();
-                    System.out.print(x.getRed());
+                    System.out.print(x.getRed() + ",");
             }
         }
     }    public void printAlphaMatrix(){

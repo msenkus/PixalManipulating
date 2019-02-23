@@ -13,8 +13,8 @@ public class Main {
         //GreyScale.gryScale(imgFile1);
 
         matrixValues mat = new matrixValues(imgFile1);
-        mat.printAlphaMatrix();
-
+       // mat.printAlphaMatrix();
+            mat.printRedMatrix();
 
 //        HideImage val = new HideImage(imgFile1, imgFile2);
 //        val.EncryptImage();
