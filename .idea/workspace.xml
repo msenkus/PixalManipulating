@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e57bf50-8f9f-4397-a6ac-2a231076ea9f" name="Default" comment="GreyScale File change. renamed file as well as main method change">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/waterfall2.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WaterFall/Waterfall2.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WaterFall/Punishersymbol1.jpg" afterPath="$PROJECT_DIR$/Images/Punishersymbol1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WaterFall/waterfall.jpg" afterPath="$PROJECT_DIR$/Images/waterfall.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PixelImage/com/projects/GreyScale.class" afterPath="$PROJECT_DIR$/out/production/PixelImage/com/projects/GreyScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PixelImage/com/projects/HideImage.class" afterPath="$PROJECT_DIR$/out/production/PixelImage/com/projects/HideImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PixelImage/com/projects/Main.class" afterPath="$PROJECT_DIR$/out/production/PixelImage/com/projects/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projects/GreyScale.java" afterPath="$PROJECT_DIR$/src/com/projects/GreyScale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projects/HideImage.java" afterPath="$PROJECT_DIR$/src/com/projects/HideImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Images/NewImage.jpg" afterPath="$PROJECT_DIR$/Images/NewImage.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projects/Main.java" afterPath="$PROJECT_DIR$/src/com/projects/Main.java" />
     </list>
     <ignored path="PixelImage.iws" />
@@ -37,8 +28,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/projects/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+            <state relative-caret-position="295">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,9 +98,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/projects/Stegh.java" />
         <option value="$PROJECT_DIR$/src/com/projects/matrixValues.java" />
-        <option value="$PROJECT_DIR$/src/com/projects/Main.java" />
         <option value="$PROJECT_DIR$/src/com/projects/HideImage.java" />
         <option value="$PROJECT_DIR$/src/com/projects/GreyScale.java" />
+        <option value="$PROJECT_DIR$/src/com/projects/Main.java" />
       </list>
     </option>
   </component>
@@ -702,10 +693,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Images/NewImage2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/NewImage3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/NewImage.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/projects/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+        <state relative-caret-position="295">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
