@@ -90,8 +90,8 @@ public class HideImage{
         num2 = (int) ((Math.floor(num2/16)) * 16);
         return num1 + num2;
     }
-    public void WriteEncryptImg() throws IOException{
-            ImageIO.write(hideImg, "jpg", new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\waterfall2.jpg"));
+    public void WriteEncryptImg(String fileName) throws IOException{
+            ImageIO.write(hideImg, "jpg", new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\Images\\" + fileName + ".jpg"));
     }
 
 }

@@ -27,6 +27,6 @@ public class GreyScale{
                 img.setRGB(i, j, x.getRGB());
             }
         }
-        ImageIO.write(img, "jpg", new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\WaterFall\\waterfall2.jpg"));
+        ImageIO.write(img, "jpg", new File("C:\\Users\\mark\\IdeaProjects\\PixelImage\\Images\\waterfall2.jpg"));
     }
 }
