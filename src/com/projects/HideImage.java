@@ -37,7 +37,7 @@ public class HideImage{
         Color rgbColor = new Color(img.getRGB(x , y));
         return rgbColor;
     }
-
+/*
     public int getRedValue(int x, int y) {
         Color red = new Color(this.baseImg.getRGB(x, y));
         int r = red.getRed();
@@ -53,7 +53,7 @@ public class HideImage{
         int r = blue.getBlue();
         return r;
     }
-
+*/
 
     public void EncryptImage(){
 //        BufferedImage encryptedImage = null;
